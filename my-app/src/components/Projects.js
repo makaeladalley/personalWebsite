@@ -12,10 +12,11 @@ export default class Projects extends Component {
                     <h4 style={{fontSize: "18px"}}>Mobile Application | Fall 2019</h4>
                     <p>CrewCam enables groups to record, edit and post clips quickly by syncing their phones while recording. All audio and video is shared so that a clip can be cut to show the best angles and commentary from each user.</p>
                 </div>
+                <hr class="line"></hr>
                 <div>
-                    <h1>This Website</h1>
+                    <h1>Personal Website</h1>
                     <h4 style={{fontSize: "18px"}}>UI Design - UX Design - React</h4>
-                    <p></p>
+                    <p>Used React JS to create my own personal website/interactive resume. Hope you enjoy :)</p>
                 </div>
             </div>
         )
