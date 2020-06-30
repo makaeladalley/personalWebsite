@@ -31,7 +31,7 @@ export default class Skills extends Component {
                             </span>                        
                         </li>
                         <li className='highlight'>
-                            <span className="ability-title">React</span>
+                            <span className="ability-title">React.js</span>
                             <span class="ability-score highlight">
                                 <a> &#9733;</a>
                                 <a>	&#9733;</a>
@@ -51,7 +51,7 @@ export default class Skills extends Component {
                             </span>                        
                         </li>
                         <li className='highlight'>
-                            <span className="ability-title">Vue</span>
+                            <span className="ability-title">Vue.js</span>
                             <span class="ability-score highlight">
                                 <a> &#9733;</a>
                                 <a>	&#9733;</a>
@@ -131,7 +131,7 @@ export default class Skills extends Component {
                             </span>                      
                         </li>
                         <li className='highlight'>
-                            <span className="ability-title">Oracle</span>
+                            <span className="ability-title">MySQL/Oracle</span>
                             <span className="ability-score">
                                 <a> &#9733;</a>
                                 <a>	&#9733;</a>

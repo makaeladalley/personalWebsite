@@ -13,7 +13,7 @@ export default class Projects extends Component {
                     <p>CrewCam enables groups to record, edit and post clips quickly by syncing their phones while recording. All audio and video is shared so that a clip can be cut to show the best angles and commentary from each user.</p>
                     <div style={{textAlign:"center"}}>
                         <a class="projectImg" href="https://github.com/btajfel/Gold-Team" target="_blank">
-                            <span style={{textAlign:"center", fontSize: "13px"}}>See project on GitHub</span>
+                            <span style={{textAlign:"center", fontSize: "13px", paddingTop: "4px"}}>See project on GitHub</span>
                             <img class="icon" align="right" src={require("../images/github.png")}></img>     
                         </a>
                     </div>
@@ -24,10 +24,10 @@ export default class Projects extends Component {
                 <div>
                     <h1>Personal Website</h1>
                     <h4 style={{fontSize: "18px"}}>UI / UX Design - React JS - HTML / CSS</h4>
-                    <p>Used React JS to create my own personal website/interactive resume. Hope you enjoy :)</p>
+                    <p>Built this web application using React.js and deployed it through Google’s Firebase. Hope you enjoy :)</p>
                     <div style={{textAlign:"center"}}>
                         <a class="projectImg" href="https://github.com/makaeladalley/personalWebsite" target="_blank">
-                            <span style={{textAlign:"center", fontSize: "13px"}}>See project on GitHub</span>
+                            <span style={{textAlign:"center", fontSize: "13px", paddingTop: "4px"}}>See project on GitHub</span>
                             <img class="icon" align="right" src={require("../images/github.png")}></img>     
                         </a>
                     </div>
