@@ -28,7 +28,7 @@ import Work from "./components/Work";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 
 
@@ -46,6 +46,7 @@ function App() {
       <Skills></Skills>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
     </React.Fragment>
   );
 }
