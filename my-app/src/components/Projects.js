@@ -23,7 +23,7 @@ export default class Projects extends Component {
                 <br></br>
                 <div>
                     <h1>Personal Website</h1>
-                    <h4 style={{fontSize: "18px"}}>UI / UX Design - React JS - HTML / CSS</h4>
+                    <h4 style={{fontSize: "18px"}}>React.js - UI / UX Design</h4>
                     <p>Built this web application using React.js and deployed it through Google’s Firebase. Hope you enjoy :)</p>
                     <div style={{textAlign:"center"}}>
                         <a class="projectImg" href="https://github.com/makaeladalley/personalWebsite" target="_blank">

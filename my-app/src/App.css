@@ -91,6 +91,7 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 30px;
 }
 
 .zoom {
@@ -124,6 +125,12 @@ ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+      display: none;
   }
 }
 
