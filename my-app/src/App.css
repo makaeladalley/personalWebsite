@@ -9,6 +9,41 @@
   pointer-events: none;
 }
 
+#toolbar {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+  height: 12vh;
+  min-height: 80px;
+  width: 100%;
+  color:  #fff; 
+}
+
+.toolbarButton {
+  max-height: 40px;
+  font-size: 22px;
+  padding-top: 0px;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: "Open Sans Extrabold";
+}
+
+.toolbarButtonActive {
+  max-height: 40px;
+  font-size: 22px;
+  padding-top: 0px;
+  text-decoration: none;
+  color:white;
+}
+
+.toolbarButton:hover {
+  transition: color 0.4s ease 0s;
+  color: #f2efdf;
+  cursor: pointer;
+}
+
 #top {
   overflow-y: hidden ! important;
   overflow-x: hidden ! important;

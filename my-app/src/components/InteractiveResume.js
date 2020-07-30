@@ -1,54 +1,43 @@
-import React, { useState} from "react";
+import React, {Component, useState} from "react";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import './App.css';
+// import './App.css';
+import '../App.css';
+
 // import Sidebar from "react-sidebar";
-import Toolbar from "./components/Toolbar";
-import Top from "./components/Top";
-import Sidebar from "./components/Sidebar";
-import AboutMe from "./components/AboutMe";
-import Work from "./components/Work";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Blog from "./components/Blog";
-
-import InteractiveResume from "./components/InteractiveResume";
+import Toolbar from "./Toolbar";
+import Top from "./Top";
+import Sidebar from "./Sidebar";
+import AboutMe from "./AboutMe";
+import Work from "./Work";
+import Skills from "./Skills";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import Blog from "./Blog";
 
 
 
-function App() {
-  return (
-    <BrowserRouter>
-      <div>
-        <Toolbar/>
-        <Switch>
-          <Route path="/" component={InteractiveResume} exact/>
-          <Route path="/blog" component={Blog}/>
-          <Route component={Error}/>
-        </Switch>
-        <Footer/>
-      </div> 
-    </BrowserRouter>
-
-
-    // <React.Fragment>
-    //   <React.Fragment>
-    //     <Toolbar></Toolbar>
-    //     <Top></Top>
-    //   </React.Fragment>
-    //   <React.Fragment style={{overflow:"hidden"}}>
-    //     <Sidebar></Sidebar>
-    //   </React.Fragment>
-    //   <AboutMe></AboutMe>
-    //   <Work></Work>
-    //   <Skills></Skills>
-    //   <Projects></Projects>
-    //   <Contact></Contact>
-    //   <Footer></Footer>
-    // </React.Fragment>
-  );
+export default class InteractiveResume extends Component {
+    render() {
+        return (
+            <React.Fragment>
+            <React.Fragment>
+                <Toolbar></Toolbar>
+                <Top></Top>
+            </React.Fragment>
+            <React.Fragment style={{overflow:"hidden"}}>
+                <Sidebar></Sidebar>
+            </React.Fragment>
+            <AboutMe></AboutMe>
+            <Work></Work>
+            <Skills></Skills>
+            <Projects></Projects>
+            <Contact></Contact>
+            <Footer></Footer>
+            </React.Fragment>
+        )
+    }
 }
 
 
@@ -1069,4 +1058,4 @@ const theme = {
 //   );
 // }
 
-export default App;
+// export default App;

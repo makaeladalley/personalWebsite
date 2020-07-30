@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-scroll'
 import "../App.css"
 import "./AboutMe.js"
 
@@ -30,6 +31,7 @@ export default class Sidebar extends Component {
 	onButtonClicked (id) {
 		this.setState({ currentButton: this.state.currentButton === id ? null : id })
 	}
+
 
 
 	render() {
